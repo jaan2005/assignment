@@ -14,3 +14,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 input[type='range'] { accent-color: #fff; }
+
+/* dual-handle price slider */
+.dual { position: relative; height: 20px; }
+.dual .track, .dual .fill { position: absolute; top: 50%; height: 4px; margin-top: -2px; border-radius: 9999px; }
+.dual .track { left: 0; right: 0; background: rgba(255, 255, 255, 0.4); }
+.dual .fill { background: #fff; }
+.dual input[type='range'] { position: absolute; inset: 0; width: 100%; margin: 0; background: transparent; pointer-events: none; appearance: none; }
+.dual input[type='range']::-webkit-slider-thumb { appearance: none; pointer-events: auto; width: 16px; height: 16px; border-radius: 9999px; background: #fff; cursor: pointer; }
+.dual input[type='range']::-moz-range-thumb { pointer-events: auto; width: 16px; height: 16px; border: 0; border-radius: 9999px; background: #fff; cursor: pointer; }
