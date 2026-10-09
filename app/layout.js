@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <body className="flex min-h-screen flex-col">
         <CartProvider>
           <Suspense fallback={<div className="h-20 bg-brand" />}><Header /></Suspense>
-          <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">{children}</main>
+          <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-8">{children}</main>
           <Footer />
         </CartProvider>
       </body>
