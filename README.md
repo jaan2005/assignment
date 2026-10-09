@@ -2,7 +2,7 @@
 
 Next.js (App Router) + Tailwind CSS product listing assignment.
 
-**Live demo:** <add your Vercel URL here>
+**Live demo:** https://assignment-khaki-theta.vercel.app/
 
 ## Features
 - Product listing with category, price and search filters (URL-synced: `/?category=electronics&price=0-500&q=phone`)
